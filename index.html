@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header bg-white">
+			<div class="container">
+				<div class="flex justify-between items-center">
+					<a class="text-primary font-bold text-3xl" href="#!">Furniture</a>
+					<nav class="navigation fixed top-0 left-0 h-full bg-dark bg-opacity-80 p-10 text-white z-10 flex flex-col w-[280px] uppercase md:normal-case md:p-0 md:w-auto md:text-dark md:flex-row md:relative md:bg-transparent">
+						<a class="inline-block mb-4 md:mb-0 md:ml-2 md:py-9 md:px-3 lg:px-6 font-medium md:font-semibold border-b-transparent border-b-2 hover:border-b-primary hover:text-primary" href="#!">Home</a>
+						<a class="inline-block mb-4 md:mb-0 md:ml-2 md:py-9 md:px-3 lg:px-6 font-medium md:font-semibold border-b-transparent border-b-2 hover:border-b-primary hover:text-primary" href="#!">Services</a>
+						<a class="inline-block mb-4 md:mb-0 md:ml-2 md:py-9 md:px-3 lg:px-6 font-medium md:font-semibold border-b-transparent border-b-2 hover:border-b-primary hover:text-primary" href="#!">Doctors</a>
+						<a class="inline-block mb-4 md:mb-0 md:ml-2 md:py-9 md:px-3 lg:px-6 font-medium md:font-semibold border-b-transparent border-b-2 hover:border-b-primary hover:text-primary" href="#!">Products</a>
+						<a class="inline-block mb-4 md:mb-0 md:ml-2 md:py-9 md:px-3 lg:px-6 font-medium md:font-semibold border-b-transparent border-b-2 hover:border-b-primary hover:text-primary" href="#!">Gallery</a>
+						<span class="close-menu inline-block absolute top-0 right-0 p-2 text-2xl md:hidden">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+								<path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+							</svg>
+						</span>
+					</nav>
+					<span class="hamburger-menu inline-block md:hidden py-6 md:py-0">
+						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" preserveAspectRatio="none">
+							<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+						</svg>
+					</span>
+					<div class="sidebar-mask block fixed top-0 left-0 h-full w-full md:hidden"></div>
+				</div>
+			</div>
+    </header>
+
+    <main>
+			<section class="main-banner bg-[url('../images/banner.jpg')] bg-cover bg-center bg-no-repeat py-16 md:py-40 md:min-h-[800px]">
+				<div class="container">
+					<div class="max-w-[680px] lg:ml-auto my-auto bg-info rounded-[10px] p-8 md:p-16 bg-opacity-90">
+						<span class="font-semibold tracking-[3px]">New Arrival</span>
+						<h1 class="text-primary font-bold text-4xl md:text-6xl leading-none  my-5">Discover Our New Collection</h1>
+						<p class="md:text-lg font-medium md:leading-loose mb-7">Our selection of apparel, accessories and home décor pieces are high quality and stylish. Update your wardrobe and interior with pieces that you'll love.</p>
+						<a class="custom-button" href="#!">Buy now</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="service-section bg-frozen py-12">
+				<div class="container">
+					<div class="flex flex-wrap lg:flex-nowrap space-y-10 lg:space-y-0 lg:space-x-4">
+						<div class="basis-full lg:basis-1/3">
+							<div class="xl:flex xl:items-center">
+								<span class="inline-block mr-4 mb-2 xl:mb-0 shrink-0"><img class="inline-block h-[60px]" width="60" src="./images/service1.svg" alt=""></span>
+								<div>
+									<span class="inline-block text-2xl font-semibold mb-1">Free delivery</span>
+									<p>Get your order delivered to your doorstep without any additional costs</p>
+								</div>
+							</div>
+						</div>
+						<div class="basis-full lg:basis-1/3">
+							<div class="xl:flex xl:items-center">
+								<span class="inline-block mr-4 mb-2 xl:mb-0 shrink-0"><img class="inline-block h-[60px]" width="60" height="60" src="./images/service2.svg" alt=""></span>
+								<div>
+									<span class="inline-block text-2xl font-semibold mb-1">Support 24/7</span>
+									<p>Our team is available 24/7 to provide you with the best support around the clock.</p>
+								</div>
+							</div>
+						</div>
+						<div class="basis-full lg:basis-1/3">
+							<div class="xl:flex xl:items-center">
+								<span class="inline-block mr-4 mb-2 xl:mb-0 shrink-0"><img class="inline-block h-[60px]" width="60" height="60" src="./images/service3.svg" alt=""></span>
+								<div>
+									<span class="inline-block text-2xl font-semibold mb-1">100% Authentic</span>
+									<p>Shop with confidence knowing all our products are 100% authentic and of the highest quality.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="py-14 lg:py-20">
+				<div class="container">
+					<div class="text-center mb-8 lg:mb-16">
+						<h2 class="custom-title mb-4 lg:mb-6">Inspiration Collection</h2>
+						<p class="custom-subtitle">Make Your Home Feel Like a Designer Showroom</p>
+					</div>
+					<div class="flex flex-wrap md:flex-nowrap space-y-5 md:space-y-0  md:space-x-6 lg:space-x-16">
+						<div class="basis-full md:basis-1/3 md:pt-8">
+							<img class="w-full mx-auto lg:mx-0 max-w-[450px] object-cover md:rounded-tl-[70px]" src="./images/furniture1.jpg" alt="Furniture">
+						</div>
+						<div class="basis-full md:basis-1/3">
+							<img class="mx-auto w-full max-w-[450px] object-cover" src="./images/furniture2.jpg" alt="Furniture">
+						</div>
+						<div class="basis-full md:basis-1/3  md:pt-8">
+							<img class="mx-auto lg:ml-auto w-full max-w-[450px] object-cover md:rounded-br-[70px]" src="./images/furniture3.jpg" alt="Furniture">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="bg-frozen py-14 lg:py-28">
+				<div class="container">
+					<div class="flex flex-wrap lg:flex-nowrap items-center space-x-0 lg:space-x-2">
+						<div class="basis-full lg:basis-1/2">
+							<h3 class="custom-title mb-6">Beautify Your Space</h3>
+							<p class="custom-subtitle leading-relaxed mb-10 lg:mb-16">You deserve the best, and so does your home. Whether it's a unique vase for your favorite flowers, or an elegant mirror that reflects your style, we'll help you find something special for every room. Browse our selection today to create the look you love.</p>
+							<a class="custom-button" href="#!">Learn more</a>
+						</div>
+						<div class="hidden lg:block basis-full lg:basis-1/2">
+							<img class="ml-auto max-w-[500px] rounded-tl-[60px] rounded-br-[60px] rounded-bl-[10px] rounded-tr-[10px]" src="./images/interior.jpeg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="range-section py-16 lg:py-28 border-b border-b-secondary border-opacity-20">
+				<div class="container">
+					<div class="text-center mb-16">
+						<h2 class="custom-title mb-6">Browse The Range</h2>
+						<p class="custom-subtitle">Create the perfect room with our curated range of furniture and accessories.</p>
+					</div>
+					<div class="flex flex-wrap md:flex-nowrap space-y-10 md:space-y-0 md:space-x-8">
+						<div class="basis-full md:basis-1/3">
+							<a class="block group" href="#!">
+								<img class="mx-auto w-[300px] md:mx-0 md:w-full rounded-xl" src="./images/furniture4.jpg" alt="">
+								<div class="text-center mt-6">
+									<span class="text-3xl font-bold group-hover:text-primary">Dining</span>
+								</div>
+							</a>
+						</div>
+						<div class="basis-full md:basis-1/3">
+							<a class="block group" href="#!">
+								<img class="mx-auto w-[300px] md:mx-0 md:w-full rounded-xl" src="./images/furniture5.jpg" alt="">
+								<div class="text-center mt-6">
+									<span class="text-3xl font-bold group-hover:text-primary">Living</span>
+								</div>
+							</a>
+						</div>
+						<div class="basis-full md:basis-1/3">
+							<a class="block group" href="#!">
+								<img class="mx-auto w-[300px] md:mx-0 md:w-full rounded-xl" src="./images/furniture6.jpg" alt="">
+								<div class="text-center mt-6">
+									<span class="text-3xl font-bold group-hover:text-primary">Bedroom</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="steps-section py-16 lg:py-28">
+				<div class="container">
+					<div class="text-center mb-16">
+						<h2 class="custom-title mb-6">How it works</h2>
+						<p class="custom-subtitle">Your interior design will be easier and more intuitive with our help</p>
+					</div>
+					<div class="flex flex-wrap md:flex-nowrap space-y-10 md:space-y-0 md:space-x-8">
+						<div class="basis-full md:basis-1/3">
+							<div>
+								<img class="mx-auto w-[400px] md:mx-0 md:w-full rounded-xl" src="./images/furniture7.jpg" alt="">
+								<div class="text-center pt-14 relative">
+									<span class="absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2 ring-[15px] ring-white inline-block rounded-full text-center leading-[57px] bg-[#111111] w-[60px] h-[60px] text-white font-bold text-3xl">1.</span>
+									<span class="inline-block mb-1 text-2xl md:text-xl lg:text-2xl font-bold">Purchase Securely</span>
+									<p class="lg:text-lg">Shop with confidence knowing your payment is secure</p>
+								</div>
+							</div>
+						</div>
+						<div class="basis-full md:basis-1/3">
+							<div class="block">
+								<img class="mx-auto w-[400px] md:mx-0 md:w-full rounded-xl" src="./images/furniture8.jpg" alt="">
+								<div class="text-center pt-14 relative">
+									<span class="absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2 ring-[15px] ring-white inline-block rounded-full text-center leading-[57px] bg-[#111111] w-[60px] h-[60px] text-white font-bold text-3xl">2.</span>
+									<span class="inline-block mb-1  text-2xl md:text-xl lg:text-2xl font-bold">Ships From Warehouse</span>
+									<p class="lg:text-lg"> Get your items quickly with fast shipping from our warehouse</p>
+								</div>
+							</div>
+						</div>
+						<div class="basis-full md:basis-1/3">
+							<div class="block">
+								<img class="mx-auto w-[400px] md:mx-0 md:w-full rounded-xl" src="./images/furniture9.jpg" alt="">
+								<div class="text-center pt-14 relative">
+									<span class="absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2 ring-[15px] ring-white inline-block rounded-full text-center leading-[57px] bg-[#111111] w-[60px] h-[60px] text-white font-bold text-3xl">3.</span>
+									<span class="inline-block mb-1  text-2xl md:text-xl lg:text-2xl font-bold">Style Your Room</span>
+									<p class="lg:text-lg"> Transform your space with personalized style and furniture</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="mail-section bg-frozen py-16 lg:py-28">
+				<div class="container">
+					<div class="text-center mb-16">
+						<h2 class="custom-title mb-6">Join Our Mailing List</h2>
+						<p class="custom-subtitle">Sign up for exclusive offers and updates!</p>
+					</div>
+					<div>
+						<form class="text-center">
+							<div class="inline-flex max-w-full">
+								<input class="bg-white border-2 border-primary rounded-l-[6px] py-3 px-6 text-2xl shadow-none outline-none min-w-0" type="text" placeholder="example@gmail.com">
+								<button class="bg-primary text-white font-bold text-2xl rounded-r-[6px] py-6 px-12">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+    </main>
+    <footer class="footer bg-primary pt-16 pb-10 lg:py-24">
+			<div class="container">
+				<div class="flex flex-wrap lg:flex-nowrap space-y-10 lg:space-y-0 lg:space-x-6">
+					<div class="basis-full lg:basis-4/12">
+						<span class="font-bold text-2xl text-white">Beauty Care</span>
+						<p class="mb-6 mt-10 text-white text-lg leading-loose">Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+						<span class="font-bold text-2xl text-white">Follow Us</span>
+					</div>
+					<div class="basis-full lg:basis-8/12">
+						<span class="inline-block mb-6 font-bold text-2xl text-white">Instagram Shop</span>
+						<div class="flex flex-wrap md:flex-nowrap max-md:-mx-[12px] max-md:-mt-[12px] md:space-x-4">
+							<a class="basis-1/2 md:basis-1/4 inline-block max-md:px-[12px] max-md:mt-[24px]" href="#!">
+								<img class="w-full rounded-[4px]" src="./images/shop1.jpg" alt="">
+							</a>
+							<a class="basis-1/2 md:basis-1/4 inline-block max-md:px-[12px] max-md:mt-[24px]" href="#!">
+								<img class="w-full rounded-[4px]" src="./images/shop2.jpg" alt="">
+							</a>
+							<a class="basis-1/2 md:basis-1/4 inline-block max-md:px-[12px]  max-md:mt-[24px]" href="#!">
+								<img class="w-full rounded-[4px]" src="./images/shop3.jpg" alt="">
+							</a>
+							<a class="basis-1/2 md:basis-1/4 inline-block max-md:px-[12px] max-md:mt-[24px]" href="#!">
+								<img class="w-full rounded-[4px]" src="./images/shop4.jpg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+    </footer>
+
+		<script src="./js/script.js"></script>
+</body>
+</html>
